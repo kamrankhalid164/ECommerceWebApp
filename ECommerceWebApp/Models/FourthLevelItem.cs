@@ -13,7 +13,7 @@ namespace E_CommerceWebApp.Models
         public int FksizeId { get; set; }
         public int FkmeasuringUnitId { get; set; }
         public int FkthirdLevelItemId { get; set; }
-        public byte[]? Barcode { get; set; }
+        //public byte[]? Barcode { get; set; }
         public int FkCompanyId { get; set; }
     }
 }
